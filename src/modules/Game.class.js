@@ -281,13 +281,14 @@ class Game {
         const num = this.initialState[r][c];
 
         this.updateTiles(tile, num);
-        this.getStatus();
       }
     }
 
     if (!this.arraysAreEqual(oldState, this.initialState)) {
       this.setTwo();
     }
+
+    this.getStatus();
   }
 
   moveRight() {
@@ -306,13 +307,14 @@ class Game {
         const num = this.initialState[r][c];
 
         this.updateTiles(tile, num);
-        this.getStatus();
       }
     }
 
     if (!this.arraysAreEqual(oldState, this.initialState)) {
       this.setTwo();
     }
+
+    this.getStatus();
   }
 
   moveUp() {
@@ -335,13 +337,14 @@ class Game {
         const num = this.initialState[r][c];
 
         this.updateTiles(tile, num);
-        this.getStatus();
       }
     }
 
     if (!this.arraysAreEqual(oldState, this.initialState)) {
       this.setTwo();
     }
+
+    this.getStatus();
   }
 
   moveDown() {
@@ -366,13 +369,14 @@ class Game {
         const num = this.initialState[r][c];
 
         this.updateTiles(tile, num);
-        this.getStatus();
       }
     }
 
     if (!this.arraysAreEqual(oldState, this.initialState)) {
       this.setTwo();
     }
+
+    this.getStatus();
   }
 
   arraysAreEqual(arr1, arr2) {
